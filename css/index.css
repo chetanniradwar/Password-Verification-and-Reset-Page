@@ -1,0 +1,69 @@
+body
+{
+background: url("../img/Back drop 1.svg")  no-repeat;
+  background-position: 0% 80%;
+  background-size: 100% auto;
+  font-size:24px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+
+}
+.navbar
+{
+    background-color: #33A0D9 !important;
+}
+.navbar .btn
+{
+  background-color: #ffff;
+  font-size:24px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+#password-box .btn{
+    font-size:24px;
+  font-weight: bold;
+ 
+}
+.navbar-nav a, .navbar-nav button
+{
+    color: black !important;
+}
+#password-box
+{
+    border: 2px solid green;
+    height: 80vh;
+
+ 
+    
+    
+}
+
+#password-box .row
+{
+    border: 2px solid red;
+   
+}
+#pass-reset
+{
+    font-size: 48px;
+}
+.letter-spacing
+{
+    letter-spacing: 0.205em;
+}
+.poppins
+{
+    font-family: poppins !important;
+}
+footer{
+    background-color: #2180B2;
+    padding: 0.4em 0em;
+}
+
+@media(max-width:768px)
+{
+footer ul{
+   display: block !important;
+   text-align: center;
+}
+}
