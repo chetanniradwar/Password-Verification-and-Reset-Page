@@ -40,18 +40,23 @@
             <div class="col-lg-6 my-auto ">
                 <div class="font-weight-bold poppins mb-4" id="pass-reset">Password Reset</div>
                 <div class="font-weight-bold letter-spacing">NEW PASSWORD</div>
-                <div class="input-group mb-5">
+                <div class="input-group mb-2">
 
-                    <input type="text" class="form-control" placeholder="" aria-label="Username"
+                    <input type="password"class="form-control"  id="new-pass" placeholder="" aria-label="password"
                         aria-describedby="basic-addon1">
+                      
                 </div>
+                <div class="mb-5" id="new-pass-err"></div>
+                
                 <DIV class="font-weight-bold letter-spacing">RE-ENTER NEW PASSWORD</DIV>
-                <div class="input-group mb-5">
+                <div class="input-group mb-2">
 
-                    <input type="text" class="form-control" placeholder="" aria-label="Username"
+                    <input type="password" class="form-control" id="con-pass" placeholder="" aria-label="password"
                         aria-describedby="basic-addon1">
+                        
                 </div>
-                <div class="btn btn-dark w-100 letter-spacing poppins">RESET PASSWORD</div>
+                <div class="mb-5" id="con-pass-err"></div>
+                <div class="btn btn-dark w-100 letter-spacing poppins" onclick="authenticate_pass()">RESET PASSWORD</div>
             </div>
         </div>
     </div>
@@ -81,5 +86,6 @@
 </body>
 <script src="js/jquery-2.1.4.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/index.js"></script>
 
 </html>

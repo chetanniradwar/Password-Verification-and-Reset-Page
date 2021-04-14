@@ -30,23 +30,25 @@ background: url("../img/Back drop 1.svg")  no-repeat;
 }
 #password-box
 {
-    border: 2px solid green;
-    height: 80vh;
-
- 
-    
-    
-}
-
-#password-box .row
-{
-    border: 2px solid red;
    
+    height: 80vh;
 }
+
+
 #pass-reset
 {
     font-size: 48px;
 }
+#new-pass-err, #con-pass-err
+{
+    font-size: 14px;
+    font-style: italic;
+    color: #EB5757;
+}
+.err-border {
+    border-color: #EB5757;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+  }
 .letter-spacing
 {
     letter-spacing: 0.205em;
