@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light  ">
+    <nav class="navbar navbar-expand-lg navbar-light  ">
         <a class="navbar-brand ml-5" href="#"> <img src="img/Asset 1_1 1.svg" width="185" height="70" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,26 +37,35 @@
     </nav>
     <div class="container my-auto" id="password-box">
         <div class="row justify-content-center h-100">
-            <div class="col-lg-6 my-auto ">
+            <div class="col-md-6 my-auto ">
                 <div class="font-weight-bold poppins mb-4" id="pass-reset">Password Reset</div>
-                <div class="font-weight-bold letter-spacing">NEW PASSWORD</div>
-                <div class="input-group mb-2">
+                <div id="before-submit-block">
+                    <div class="font-weight-bold letter-spacing">NEW PASSWORD</div>
+                    <div class="input-group mb-2">
 
-                    <input type="password"class="form-control"  id="new-pass" placeholder="" aria-label="password"
-                        aria-describedby="basic-addon1">
-                      
-                </div>
-                <div class="mb-5" id="new-pass-err"></div>
-                
-                <DIV class="font-weight-bold letter-spacing">RE-ENTER NEW PASSWORD</DIV>
-                <div class="input-group mb-2">
+                        <input type="password" class="form-control" id="new-pass" placeholder="" aria-label="password"
+                            aria-describedby="basic-addon1">
 
-                    <input type="password" class="form-control" id="con-pass" placeholder="" aria-label="password"
-                        aria-describedby="basic-addon1">
-                        
+                    </div>
+                    <div class="mb-5" id="new-pass-err"></div>
+
+                    <DIV class="font-weight-bold letter-spacing">RE-ENTER NEW PASSWORD</DIV>
+                    <div class="input-group mb-2">
+
+                        <input type="password" class="form-control" id="con-pass" placeholder="" aria-label="password"
+                            aria-describedby="basic-addon1">
+
+                    </div>
+                    <div class="mb-5" id="con-pass-err"></div>
+                    <div class="btn btn-dark w-100 letter-spacing poppins" onclick="authenticate_pass()">RESET PASSWORD
+                    </div>
                 </div>
-                <div class="mb-5" id="con-pass-err"></div>
-                <div class="btn btn-dark w-100 letter-spacing poppins" onclick="authenticate_pass()">RESET PASSWORD</div>
+                    <div id="after-submit-block">
+                       <p class="mb-5">Your password has been updated! Now get back in the driver seat, racers are waiting for you!</p>
+                        <div class="btn btn-dark w-100 letter-spacing poppins" ">JOIN A RACE
+                        </div>
+                    </div>
+               
             </div>
         </div>
     </div>
